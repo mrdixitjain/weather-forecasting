@@ -1,9 +1,7 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { Component} from "react";
 import * as apiFncs from "./helpers/api";
 import Navbar from './Components/Navbar';
 import Weather from './Components/Weather';
-// import Weather from "./Weather";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import Loading from "./Components/Loading";
 
 async function getWeather() {
